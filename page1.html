@@ -9,6 +9,13 @@
 				background-image: url("https://www.hrzone.com/sites/default/files/phive2015-blockchain.jpg");
 				background-size: cover;
 			}
+			#pstart{
+				text-align: center;
+				font-family: 'Righteous', cursive;
+				color: white;
+				font-size: 90px;
+				text-shadow: 0 0 8px dodgerblue, 0 0 15px black;
+			}
 		</style>
 	</head>
 	<body>
@@ -22,7 +29,23 @@
 					<!--<a href="register.html">Milan</a>-->
 				</nav>
 			</header>
-			<
-		</section>	 
+			<div id="start">
+				<p id="pstart">Ready to start your blockchain journey?</p>
+			</div>
+		</section>
+		<script>
+			var i = 0;
+			var txt = 'Ready to start your blockchain journey?';
+			var speed = 50; 
+
+			function typeWriter() {
+			  /*if (i < txt.length) {
+				document.getElementById("pstart").innerHTML += txt.charAt(i);
+				i++;
+				setTimeout(typeWriter, speed);
+			  }*/
+			  document.getElementById("pstart").innerHTML=txt;
+			}
+		</script>
 	</body>
 </html>
