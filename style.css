@@ -1,0 +1,39 @@
+body{
+	margin: 0 auto;
+}
+
+#heading h1{
+	margin: 0;
+}
+
+header h1, header nav{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+header{
+	background-color: rgba(255,255,255,0.4);
+}
+
+#heading{
+	font-family: 'Righteous', cursive;
+	color: white;
+    font-size: 50px;
+    padding: 15px; 
+	margin: 0px;
+	text-shadow: 3px 3px 0px dodgerblue;
+}
+            
+#navbar a{
+	font-family: 'Righteous', cursive;
+	text-decoration: none;
+	color: white;
+	font-size: 180%;
+	float: right;
+	text-align: center;
+	padding: 20px;
+}
+
+#navbar a:hover{
+	background-color: dodgerblue;
+}
